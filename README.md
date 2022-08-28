@@ -3,4 +3,7 @@ This repository contains a code to simulate a PCR-RLFP (Restriction fragment len
 
 # Scripts:
 prc_rflp_inSilico.py - Code to create restriction fragments using bactome library from python. 
-pcrRFLP-Plot.R - Script to simulate a gel electrophoresis
+
+pcrRFLP-Plot.R - Script to simulate a gel electrophoresis.
+
+
