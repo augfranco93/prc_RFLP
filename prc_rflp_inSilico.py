@@ -108,7 +108,6 @@ for i in (df_filter['primaryAccession']):
                 #(restriction_digest(sequences.seq,enzymes))
                 x =  restriction_digest(sequences.seq,enzymes,p=False, max_band=3000, min_band=0)
                 results.append(x)
-                # (>)(\w+).(\d+).(\d+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+) Regular expression to edit the fasta file name.
                 y = sequences.description
                 ids.append(y)
                 accessions.append(i)
